@@ -1,0 +1,47 @@
+table, th, td {
+    border: 1px solid;
+  }
+  /* Let the table borders collapse */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  /* Single Border Around The Table */
+.t1{
+        width: 100%;
+        border: 1px solid;
+  }
+
+  /* The width and height Properties */
+  th {
+    height: 70px;
+  }
+  /* The text-align Property */
+  
+th {
+    text-align: left;
+  }
+  /* The vertical-align Property */
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+
+  /* padding */
+  th, td {
+    padding: 15px;
+  }
+  /* dd the border-bottom property to th and td for horizontal dividers: */
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  /* Move the mouse over the table rows to see the effect. */
+  
+tr:hover {
+    background-color: rgb(255, 0, 0);}
+/* For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows: */
+tr:nth-child(even) {
+    background-color: #794c4c;
+}
